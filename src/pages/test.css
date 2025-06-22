@@ -55,15 +55,11 @@ body {
   position: relative;
   width: 230px;
 }
-.filter-dropdown select option:hover {
-  background-color: #E25640;
-  color: white;
-}
 
 .filter-dropdown select {
   width: 100%;
   padding: 10px 15px;
-  border: 2px solid #DEDBD8;
+  border: 1px solid #ddd;
   border-radius: 5px;
   appearance: none;
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="6"><path d="M0 0l6 6 6-6z" fill="%23333"/></svg>') no-repeat;
@@ -71,7 +67,7 @@ body {
   cursor: pointer;
 }
 
-
+/* Recipe metadata section */
 .recipe-meta {
   display: flex;
   justify-content: space-between;
@@ -420,20 +416,4 @@ body {
     width: 100%;
     justify-content: space-between;
   }
-}
-a {
-  text-decoration: none; /* Removes underline */
-  color: inherit; /* Keeps text color the same */
-}
-
-a:visited {
-  color: inherit; /* Prevents color change when visited */
-}
-
-a:hover {
-  color: #E25640; /* Optional: Changes color on hover */
-}
-
-a:active {
-  color: inherit; /* Ensures the active state doesn't change color */
 }
